@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi página dinámica con EJS</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <%- include('./componentes/bootstrap.ejs'); %>
+</head>
+<body>
+
+    <section class="section-menu">
+        <header>
+       
+            <%- include('./componentes/menu.ejs'); %>
+            
+        </header>
+    </section>
+
+
+  <h1>Holafrwegwesgews, <%= nombre %>!</h1>
+  <script src="/js/main.js"></script>
+</body>
+</html>

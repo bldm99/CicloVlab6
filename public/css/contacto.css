@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.section-form{
+    background: rgb(24, 2, 2);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.todo{
+    background: rgb(24, 2, 2);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    width: 100%;
+    
+
+}
+.ab{
+    width: 30%;
+    color: aliceblue;
+  
+}
+.contenido-form{
+    /*background: blue;*/
+    width: 50%;
+    padding: 20px 0px;
+    color: aliceblue;
+    
+    
+}
+
+.formulario{
+    /*background: blue;padding: 4px;*/
+    display: flex;
+    justify-content: center;
+}
+
+.formulario form{
+    /*background: green;*/
+    padding: 4px 0px;
+    width: 100%;
+}
+
+
+form .valores input{
+    display: block;
+    width:100% ;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 5px;
+    outline-color: rgb(9, 194, 40); /*color de border al seleccionar input*/
+    font-size: 16px;
+    box-sizing: border-box; /*Para que los imput ocupne el espacio que ele cooresponde en una  caja*/
+}
+
+form button{
+    padding: 8px 4px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(131, 216, 3);
+    font-size: 18px;
+    font-weight: 200;
+
+}
+.fo{
+    background: black;
+    padding: 2px;
+    color: white;
+}
+.fo footer{
+    text-align: center;
+
+}

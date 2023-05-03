@@ -1,0 +1,53 @@
+.caja-menu {
+    background: rgb(0, 0, 8);
+    padding: 12px;
+    color: rgb(0, 177, 0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+
+
+}
+
+.nombre a{
+    text-decoration: none;
+    color: rgb(0, 177, 0);
+    
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.titulo img {
+    width: 40px;
+    height: 40px;
+    font-weight: 400;
+    border-radius: 350px;
+}
+
+
+/*.lista-menu{
+    
+}*/
+
+.lista-menu ul{
+    display: flex;
+    gap: 45px;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+}
+.lista-menu ul li{
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+/*.lista-menu ul li a{
+    text-decoration: none;
+}*/

@@ -1,0 +1,58 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.caja-h{
+    margin-top: 10px;
+    background: rgb(235, 232, 232);
+    padding: 5px;
+}
+
+.contenido-lenguaje h2{
+    text-align: center;
+}
+
+.lenguaje{
+    background: white;
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.titulo-l img{
+    
+    max-width: 500px ;
+    
+}
+
+.banner{
+    background: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100%;
+    height: 200px;
+}
+
+.welcome{
+    color: aliceblue;
+    position: absolute;
+    top: 10px;
+    
+}
+
+.welcome h1{
+    background: rgba(5, 0, 0, 0.6);
+    padding: 5px;
+}
+
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/habilidades.css">
+</head>
+<body>
+
+    <div class="me" >
+        <%- include('./componentes/menu.ejs'); %> 
+    </div>
+
+    <div class="banner">
+              
+        
+        <img src="https://media.istockphoto.com/id/1336131137/es/foto/cloud-computing-nft-ia-inteligencia-artificial.jpg?b=1&s=170667a&w=0&k=20&c=eq_ShcN2FmkP1toFUO9Kt6DL5UFccxQOVnb46ZbV45c=" alt="">
+        <div class="welcome">
+          <h1>Habilidades</h1>
+          
+        </div>
+        
+    </div>
+
+    <% objetolenguaje.forEach(function(lenguaje) { %>
+        
+
+        <div class="caja-h">
+
+            <div class="contenido-lenguaje">
+                <h2><%= lenguaje.nombre %></h2>
+                <div class="lenguaje">
+                    <div class="titulo-l">
+                        
+                        <img src="<%= lenguaje.imagen %>" alt="">
+    
+                    </div>
+                    <div class="descripcion">
+                        <h3>Pagina web <%= lenguaje.nombre %></h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem id voluptas
+                             excepturi dolorem accusamus dolorum ut eaque dolore quo aspernatur provident 
+                            omnis officiis ipsa deleniti, repellendus magni dolor tempora obcaecati.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem id voluptas
+                             excepturi dolorem accusamus dolorum ut eaque dolore quo aspernatur provident 
+                            omnis officiis ipsa deleniti, repellendus magni dolor tempora obcaecati.
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+
+    <% }); %>
+
+    
+      
+    
+</body>
+</html>
